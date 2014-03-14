@@ -30,7 +30,8 @@ module.exports = function(grunt) {
         files: {
           '<%= site.app_dir %>/assets/css/main.css' : '<%= site.app_dir %>/_less/main.less',
           '<%= site.app_dir %>/assets/css/blog.css' : '<%= site.app_dir %>/_less/blog.less',
-          '<%= site.app_dir %>/assets/css/syntax.css' : '<%= site.app_dir %>/_less/syntax.less'
+          '<%= site.app_dir %>/assets/css/syntax.css' : '<%= site.app_dir %>/_less/syntax.less',
+          '<%= site.app_dir %>/assets/css/bootstrap.css' : '<%= site.app_dir %>/_less/bootstrap.less'
         }
       }
     },

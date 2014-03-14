@@ -24,5 +24,6 @@ exclude:      ['.gitignore','*.sh', 'Gruntfile.js', 'package.json', 'bower.json'
 # Server
 host:         localhost
 port:         1234
-baseurl:      http://vsbarba.github.io/iamdash2
+# baseurl:      http://vsbarba.github.io/iamdash2
+baseurl:      /
 destination:  .jekyll
